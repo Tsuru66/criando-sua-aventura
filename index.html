@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>aventura na cidade perdida</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.avif" alt="imagem">
+            <p>Você é um anão escavador em um mundo de fantasia, explorando o subsolo em busca de minérios e tesouros
+                perdidos. Durante sua exploração, você se depara com um reino gigante abandonado, oculto nas profundezas
+                da terra. As construções imponentes, esculpidas em pedra, sugerem a grandeza de um passado distante.
+                Decidido a desvendar os segredos deste lugar, você prepara suas ferramentas e entra nas ruínas, com a
+                esperança de encontrar riquezas esquecidas e histórias há muito perdidas.</p>
+            <button class="btn-proximo" data-proximo="1">O palacio</button>
+            <button class="btn-proximo" data-proximo="2">A cidade</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Ao entrar no palácio, você nota que ele é gigantesco e se pergunta o que pode haver por ali.</p>
+            <button class="btn-proximo" data-proximo="3">Você anda com cuidado pelo palácio.</button>
+            <button class="btn-proximo" data-proximo="4">Você vai diretamente até o quarto do rei.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você anda pela cidade e nota que pessoas viviam ali, mas de repente desapareceram. Não há sinais de
+                destruição e nem de que as pessoas tenham fugido. Você entra em uma casa e nota um porão; ao mesmo
+                tempo, olha pela janela e vê uma bela igreja na cidade</p>
+            <button class="btn-proximo" data-proximo="5">Ir para a igreja.</button>
+            <button class="btn-proximo" data-proximo="6">Entrar no porão.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Andando pelo palácio, você nota um barulho estranho vindo de uma sala desconhecida.</p>
+            <button class="btn-proximo" data-proximo="7">"Você decide ir para o desconhecido.</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Enquanto você andava, escuta um barulho estranho aos seus pés. Você ativou uma armadilha e morreu sem nem
+                mesmo ter visto que tipo de armadilha era.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Você entra na igreja e nota sua beleza, mas também percebe um brilho azul vindo do altar. Ao se
+                aproximar, vê que o brilho está parado no ar, como se fosse mágico.</p>
+            <button class="btn-proximo" data-proximo="7">"Você decide ir para o desconhecido.</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Ao entrar no porão, você encontra um diário ao lado de um esqueleto, parece que morreu de fome.</p>
+            <button class="btn-proximo" data-proximo="8">Ler o diario.</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p> O diário conta que um dia o mago da corte real enlouqueceu. Buscando mais poder, ele aprisionou todo o
+                reino e planejava trocar suas almas com um demônio por mais poder, aparetemente agora ele passa a maior
+                parte do seu tempo em sua camara no palacio</p>
+            <button class="btn-proximo" data-proximo="7">"Você decide ir para o desconhecido.</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>"Você entra em uma sala que parece ser de algum mago</p>
+            <button class="btn-proximo" data-proximo="9">Explorar a sala.</button>
+            <button class="btn-proximo" data-proximo="10">Procurar o mago.</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Enquanto você explorava a sala, acidentalmente pisa em um frasco de poção, que faz você derreter
+                instantaneamente, transformando-se em um esqueleto.</p>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Você procura pelo mago, mas tudo o que encontra é um corpo em decomposição no chão, cercado por marcas
+                estranhas e poções. Parece que ele morreu enquanto realizava experimentos em si mesmo, ele esta
+                segurando algo.</p>
+            <button class="btn-proximo" data-proximo="11">Pegar oque ele esta segurando</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>Você pega uma bola de cristal estranha no meio do corpo. Ao olhar mais de
+                perto, percebe que há pessoas dentro da bola de cristal. Seriam esses os cidadãos da cidade.</p>
+            <button class="btn-proximo" data-proximo="12">Você se aproxima para olhar melhor a bola de cristal.</button>
+        </div>
+        <div class="passo" id="passo-12">
+        <p>"Realmente são eles; o mago os aprisionou aqui. Você se pergunta se deveria libertá-los, mas será que
+            conseguiriam sobreviver, mesmo com o reino tendo sido soterrado? Talvez você devesse pensar em uma maneira
+            diferente de libertá-los.
+            <button class="btn-proximo" data-proximo="13">Destruir a bola de cristal.</button>
+            <button class="btn-proximo" data-proximo="14">Fazer uma rachadura na bola de cristal.</button>
+            </div>
+        <div class="passo" id="passo-13">
+        <p>Determinado a acabar com a prisão dos cidadãos, você se aproxima da bola de cristal e, com toda a força que
+            consegue reunir, a destrói completamente. A luz azul brilha intensamente e, em um instante, as almas dos
+            prisioneiros são libertadas, ascendendo para o paraíso. Você sente uma onda de alívio e satisfação ao saber
+            que fez a coisa certa, mesmo sabendo que sua própria jornada chegou ao fim.</p>
+        </div>
+        <div class="passo" id="passo-14">
+        <p>Você decide tentar libertar os cidadãos, mas ao invés de destruir a bola de cristal, você causa uma
+            rachadura. A luz azul pisca e, com isso, as almas começam a escapar. Elas se dispersam pelo ambiente, mas
+            você sente uma onda de incerteza. Embora eles estejam livres, você se pergunta se foi realmente a decisão
+            certa, já que seu reino ainda está em ruínas. A dúvida permanece, mesmo enquanto os cidadãos desaparecem nas
+            sombras da sala.</p>
+        </div>
+    </main>
+    <script src="scritp.js"></script>
+
+</body>
+
+</html>
